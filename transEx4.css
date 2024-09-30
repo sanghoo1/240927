@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+  background-image:linear-gradient(-15deg,#FFCFB3,#87A2FF);
+  
+  height: calc(100vh - 100px);
+  font-family: "Playwrite DE Grund",cursive;
+  text-transform: capitalize;
+}
+.profile-wrapper{
+  background-color: #fff;
+  width: 500px;
+  margin: 100px auto;
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.profile-wrapper .txt-box{
+  padding: 20px;
+  width: 50%;
+}
+.profile-wrapper .txt-box h2{
+  font-size: 1.5rem;
+  font-style: italic;
+  border-bottom:1px solid #000 ;
+  padding-left: 4px;
+}
+.profile-wrapper .txt-box p{
+  line-height: 1.6;
+  margin: 20px 0 24px 10px;
+  font-family: "Jua", sans-serif;
+}
+.profile-wrapper .txt-box .sns{
+  display: flex;
+}
+.profile-wrapper .txt-box .sns a{
+  display: block;
+}
+.profile-wrapper .txt-box .sns a span{
+  color: #87A2FF;
+}
+.profile-wrapper h3{}
+.profile-wrapper .img-box{}
+
